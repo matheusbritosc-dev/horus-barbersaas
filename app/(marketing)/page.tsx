@@ -30,6 +30,12 @@ export default function HomePage() {
           Entrar
         </Link>
         <Link
+          href="/dashboard"
+          className="rounded-lg border px-6 py-3 font-medium hover:bg-slate-50 dark:hover:bg-slate-800"
+        >
+          Abrir dashboard
+        </Link>
+        <Link
           href="/barbearia/demo-barber"
           className="rounded-lg border px-6 py-3 font-medium hover:bg-slate-50 dark:hover:bg-slate-800"
         >
